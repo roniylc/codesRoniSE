@@ -1,11 +1,7 @@
 package org.hbrs.se1.ws24.exercises.uebung2.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
-
-import org.hbrs.se1.ws24.exercises.uebung2.ConcreteMember;
-import org.hbrs.se1.ws24.exercises.uebung2.Container;
-import org.hbrs.se1.ws24.exercises.uebung2.ContainerException;
-import org.hbrs.se1.ws24.exercises.uebung2.Member;
+import org.hbrs.se1.ws24.exercises.uebung2.*;
 import org.junit.jupiter.api.*;
 
 public class ContainerTest {
