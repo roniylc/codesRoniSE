@@ -42,6 +42,12 @@
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.ContainerTest.executor": "Run",
+    "JUnit.ContainerTest.test1.executor": "Run",
+    "JUnit.ContainerTest.test2.executor": "Run",
+    "JUnit.ContainerTest.test3.executor": "Run",
+    "JUnit.ContainerTest.test4.executor": "Run",
+    "JUnit.ContainerTest.test5.executor": "Run",
+    "JUnit.ContainerTest.test6.executor": "Run",
     "JUnit.GermanTranslatorTest.translateNumber.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -88,17 +94,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GermanTranslatorTest.translateNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContainerTest.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codesSE2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hbrs.se1.ws24.tests.uebung1.*" />
+          <option name="PATTERN" value="org.hbrs.se1.ws24.exercises.uebung2.Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.tests.uebung1" />
-      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.tests.uebung1.GermanTranslatorTest" />
-      <option name="METHOD_NAME" value="translateNumber" />
+      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.exercises.uebung2.Test" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.exercises.uebung2.Test.ContainerTest" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContainerTest.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codesSE2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hbrs.se1.ws24.exercises.uebung2.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.exercises.uebung2.Test" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.exercises.uebung2.Test.ContainerTest" />
+      <option name="METHOD_NAME" value="test6" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContainerTest.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codesSE2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hbrs.se1.ws24.exercises.uebung2.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.exercises.uebung2.Test" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.exercises.uebung2.Test.ContainerTest" />
+      <option name="METHOD_NAME" value="test7" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContainerTest.test8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codesSE2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hbrs.se1.ws24.exercises.uebung2.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.exercises.uebung2.Test" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.exercises.uebung2.Test.ContainerTest" />
+      <option name="METHOD_NAME" value="test8" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,7 +161,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ContainerTest" />
-        <item itemvalue="JUnit.GermanTranslatorTest.translateNumber" />
+        <item itemvalue="JUnit.ContainerTest.test8" />
+        <item itemvalue="JUnit.ContainerTest.test7" />
+        <item itemvalue="JUnit.ContainerTest.test6" />
+        <item itemvalue="JUnit.ContainerTest.test5" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +185,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727176957166</updated>
       <workItem from="1727176958305" duration="1892000" />
-      <workItem from="1729021624783" duration="3081000" />
+      <workItem from="1729021624783" duration="4702000" />
     </task>
     <task id="LOCAL-00001" summary="Klasse erstellt ohne Methode">
       <option name="closed" value="true" />
@@ -154,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729024314953</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Neu">
+      <option name="closed" value="true" />
+      <created>1729024794808</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729024794808</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +238,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Klasse erstellt ohne Methode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Klasse erstellt ohne Methode" />
+    <MESSAGE value="Neu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Neu" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung2/Test/ContainerTest.java</url>
+          <line>80</line>
+          <properties class="org.hbrs.se1.ws24.exercises.uebung2.Test.ContainerTest" method="test6">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
