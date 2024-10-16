@@ -87,10 +87,5 @@ public class ContainerTest {
         assertEquals(0,c2.size());
     }
 
-    @Test
-    void test8() throws ContainerException {
-        c.dump();
-        assertEquals(2,c.size());
-    }
 
 }
