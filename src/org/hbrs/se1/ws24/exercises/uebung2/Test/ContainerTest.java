@@ -87,10 +87,10 @@ public class ContainerTest {
         assertEquals(0,c2.size());
     }
 
-    /*@Test
+    @Test
     void test8() throws ContainerException {
-        c.addMember(null);
+        c.dump();
         assertEquals(2,c.size());
-    }*/
+    }
 
 }
