@@ -37,39 +37,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.ContainerTest.executor": "Run",
-    "JUnit.ContainerTest.test1.executor": "Run",
-    "JUnit.ContainerTest.test2.executor": "Run",
-    "JUnit.ContainerTest.test3.executor": "Run",
-    "JUnit.ContainerTest.test4.executor": "Run",
-    "JUnit.ContainerTest.test5.executor": "Run",
-    "JUnit.ContainerTest.test6.executor": "Run",
-    "JUnit.ContainerTest.test7.executor": "Run",
-    "JUnit.ContainerTest.test8.executor": "Run",
-    "JUnit.GermanTranslatorTest.translateNumber.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/ronib/OneDrive/Dokumente/3. Semester/Software Engineering 1/codesSEws24/test",
-    "last_opened_file_path": "C:/Users/ronib/OneDrive/Dokumente/3. Semester/Software Engineering 1/codesSEws24/test/org/hbrs/se1/ws24",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.ContainerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContainerTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContainerTest.test2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContainerTest.test3.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContainerTest.test4.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContainerTest.test5.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContainerTest.test6.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContainerTest.test7.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContainerTest.test8.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GermanTranslatorTest.translateNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/ronib/OneDrive/Dokumente/3. Semester/Software Engineering 1/codesSEws24/test&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ronib/OneDrive/Dokumente/3. Semester/Software Engineering 1/codesSEws24/test/org/hbrs/se1/ws24&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ronib\OneDrive\Dokumente\3. Semester\Software Engineering 1\codesSEws24\test\org\hbrs\se1\ws24" />
@@ -80,7 +80,7 @@
       <recent name="org.hbrs.se1.ws24.exercises.uebung2.Test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ContainerTest">
+  <component name="RunManager" selected="JUnit.ContainerTest.test8">
     <configuration name="ContainerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codesSE2024" />
       <extension name="coverage">
@@ -162,8 +162,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ContainerTest" />
         <item itemvalue="JUnit.ContainerTest.test8" />
+        <item itemvalue="JUnit.ContainerTest" />
         <item itemvalue="JUnit.ContainerTest.test7" />
         <item itemvalue="JUnit.ContainerTest.test6" />
         <item itemvalue="JUnit.ContainerTest.test5" />
