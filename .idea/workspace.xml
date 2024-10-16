@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Neu">
+    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Fertige Version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung2/Test/ContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung2/Test/ContainerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +47,8 @@
     "JUnit.ContainerTest.test4.executor": "Run",
     "JUnit.ContainerTest.test5.executor": "Run",
     "JUnit.ContainerTest.test6.executor": "Run",
+    "JUnit.ContainerTest.test7.executor": "Run",
+    "JUnit.ContainerTest.test8.executor": "Run",
     "JUnit.GermanTranslatorTest.translateNumber.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -57,6 +58,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/ronib/OneDrive/Dokumente/3. Semester/Software Engineering 1/codesSEws24/test",
     "last_opened_file_path": "C:/Users/ronib/OneDrive/Dokumente/3. Semester/Software Engineering 1/codesSEws24/test/org/hbrs/se1/ws24",
@@ -185,7 +187,8 @@
       <option name="presentableId" value="Default" />
       <updated>1727176957166</updated>
       <workItem from="1727176958305" duration="1892000" />
-      <workItem from="1729021624783" duration="4702000" />
+      <workItem from="1729021624783" duration="5997000" />
+      <workItem from="1729054119133" duration="799000" />
     </task>
     <task id="LOCAL-00001" summary="Klasse erstellt ohne Methode">
       <option name="closed" value="true" />
@@ -219,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729024794808</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fertige Version">
+      <option name="closed" value="true" />
+      <created>1729027267786</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729027267786</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,21 +250,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Klasse erstellt ohne Methode" />
     <MESSAGE value="Neu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Neu" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung2/Test/ContainerTest.java</url>
-          <line>80</line>
-          <properties class="org.hbrs.se1.ws24.exercises.uebung2.Test.ContainerTest" method="test6">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Fertige Version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fertige Version" />
   </component>
 </project>
