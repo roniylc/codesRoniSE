@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Fertige Version">
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/persistence/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/persistence/MemberView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codesSE2024.iml" beforeDir="false" afterPath="$PROJECT_DIR$/codesSE2024.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung2/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung2/Container.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung2/Test/ContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung2/Test/ContainerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/persistence/PersistenceStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/persistence/PersistenceStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/persistence/PersistenceStrategyStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/persistence/PersistenceStrategyStream.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,39 +44,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;JUnit.ContainerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ContainerTest.test1.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ContainerTest.test2.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ContainerTest.test3.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ContainerTest.test4.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ContainerTest.test5.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ContainerTest.test6.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ContainerTest.test7.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ContainerTest.test8.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.GermanTranslatorTest.translateNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/ronib/OneDrive/Dokumente/3. Semester/Software Engineering 1/codesSEws24/test&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ronib/OneDrive/Dokumente/3. Semester/Software Engineering 1/codesSEws24/test/org/hbrs/se1/ws24&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Client.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.ContainerTest.executor": "Run",
+    "JUnit.ContainerTest.test1.executor": "Run",
+    "JUnit.ContainerTest.test2.executor": "Run",
+    "JUnit.ContainerTest.test3.executor": "Run",
+    "JUnit.ContainerTest.test4.executor": "Run",
+    "JUnit.ContainerTest.test5.executor": "Run",
+    "JUnit.ContainerTest.test6.executor": "Run",
+    "JUnit.ContainerTest.test7.executor": "Run",
+    "JUnit.ContainerTest.test8.executor": "Run",
+    "JUnit.GermanTranslatorTest.translateNumber.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/ronib/OneDrive/Dokumente/3. Semester/Software Engineering 1/codesSEws24/test",
+    "last_opened_file_path": "C:/Users/ronib/OneDrive/Dokumente/3. Semester/Software Engineering 1/codesSEws24/test/org/hbrs/se1/ws24",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ronib\OneDrive\Dokumente\3. Semester\Software Engineering 1\codesSEws24\test\org\hbrs\se1\ws24" />
@@ -80,7 +89,20 @@
       <recent name="org.hbrs.se1.ws24.exercises.uebung2.Test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ContainerTest.test8">
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.exercises.uebung3.persistence.Client" />
+      <module name="codesSE2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hbrs.se1.ws24.exercises.uebung3.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ContainerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codesSE2024" />
       <extension name="coverage">
@@ -92,22 +114,6 @@
       <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.exercises.uebung2.Test" />
       <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.exercises.uebung2.Test.ContainerTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContainerTest.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codesSE2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.hbrs.se1.ws24.exercises.uebung2.Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.exercises.uebung2.Test" />
-      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.exercises.uebung2.Test.ContainerTest" />
-      <option name="METHOD_NAME" value="test5" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -162,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="JUnit.ContainerTest.test8" />
         <item itemvalue="JUnit.ContainerTest" />
         <item itemvalue="JUnit.ContainerTest.test7" />
         <item itemvalue="JUnit.ContainerTest.test6" />
-        <item itemvalue="JUnit.ContainerTest.test5" />
       </list>
     </recent_temporary>
   </component>
@@ -189,6 +195,11 @@
       <workItem from="1727176958305" duration="1892000" />
       <workItem from="1729021624783" duration="5997000" />
       <workItem from="1729054119133" duration="799000" />
+      <workItem from="1729081602921" duration="1763000" />
+      <workItem from="1729346039731" duration="2864000" />
+      <workItem from="1729420615740" duration="12962000" />
+      <workItem from="1729447557857" duration="3221000" />
+      <workItem from="1729534467177" duration="4938000" />
     </task>
     <task id="LOCAL-00001" summary="Klasse erstellt ohne Methode">
       <option name="closed" value="true" />
@@ -230,7 +241,31 @@
       <option name="project" value="LOCAL" />
       <updated>1729027267786</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fertige Version">
+      <option name="closed" value="true" />
+      <created>1729081632432</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729081632432</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fertige Version">
+      <option name="closed" value="true" />
+      <created>1729081774317</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729081774317</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fertige Version">
+      <option name="closed" value="true" />
+      <created>1729082058237</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729082058237</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,5 +287,9 @@
     <MESSAGE value="Neu" />
     <MESSAGE value="Fertige Version" />
     <option name="LAST_COMMIT_MESSAGE" value="Fertige Version" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
