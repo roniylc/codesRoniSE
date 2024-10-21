@@ -10,6 +10,8 @@ import java.util.List;
  *
  */
 public interface PersistenceStrategy<E> {
+
     public void save(List<E> member) throws PersistenceException;
     public List<E> load() throws PersistenceException;
+
 }

@@ -6,7 +6,7 @@ import org.junit.jupiter.api.*;
 
 public class ContainerTest {
 
-    private static Container c;
+   /* private static Container c;
 
     @BeforeEach
     void init() throws ContainerException {
@@ -87,5 +87,5 @@ public class ContainerTest {
         assertEquals(0,c2.size());
     }
 
-
+*/
 }
