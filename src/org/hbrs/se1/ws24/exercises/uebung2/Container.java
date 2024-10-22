@@ -5,6 +5,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Container {
+    /* Singleton Pattern: Garantiert, dass nur eine Instanz von Container existiert
+    * Konstruktor private, damit von außen eine erzeugung nicht möglich ist, static variable für die
+    * Singleton-Instanz, in der dann in einer static methode die einzige Instanz erzeugt wird
+    * */
 
     private static Container instance; // static für Singleton-Instanz
     private List<Member> list;
@@ -29,16 +33,16 @@ public class Container {
 
     public void store() throws PersistenceException{
         if(strategy == null){
-            throw new PersistenceException(PersistenceException.ExceptionType.NoStrategyIsSet, "Keine PersistenceStrategy gesetzt");
+            throw new PersistenceException(PersistenceException.ExceptionType.NullPointer, "Keine PersistenceStrategy gesetzt");
         }
         strategy.save(list);
     }
 
     public void load() throws PersistenceException{
         if(strategy == null){
-            throw new PersistenceException(PersistenceException.ExceptionType.NoStrategyIsSet, "Keine PersistenceStrategy gesetzt");
+            throw new PersistenceException(PersistenceException.ExceptionType.NullPointer, "Keine PersistenceStrategy gesetzt");
         }
-        List<Member> loadedList = strategy.load();
+        List<Member> loadedList = (List<Member>) strategy.load();
         if (loadedList != null) {
             list = loadedList;
         }

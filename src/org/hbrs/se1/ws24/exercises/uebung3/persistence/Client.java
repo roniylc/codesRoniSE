@@ -9,7 +9,7 @@ import java.util.List;
 public class Client {
 
     public static void main(String[] args) {
-        try{
+       /* try{
             Container c = Container.getInstance();
 
             Member m1 = new ConcreteMember(1);
@@ -27,7 +27,7 @@ public class Client {
             v.dump(current);
         } catch (ContainerException e){
             System.out.println("Fehler: " + e.getMessage());
-        }
+        }*/
     }
 
 }
