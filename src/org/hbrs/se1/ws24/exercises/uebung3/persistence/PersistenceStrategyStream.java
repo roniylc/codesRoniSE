@@ -17,16 +17,22 @@ public class PersistenceStrategyStream<E> implements PersistenceStrategy<E> {
     /**
      * Method for saving a list of Member-objects to a disk (HDD)
      * Look-up in Google for further help!
+     * https://www.digitalocean.com/community/tutorials/objectoutputstream-java-write-object-file
+     * (Last Access: Oct, 15th 2024)
      */
     public void save(List<E> member) throws PersistenceException  {
+        ObjectOutputStream oos;
         try {
             FileOutputStream fos = new FileOutputStream(location);
-            ObjectOutputStream oos = new ObjectOutputStream(fos);
+            oos = new ObjectOutputStream(fos);
             oos.writeObject(member); // schreibt Objekt in File
-            oos.close();
-            fos.close();
         } catch (IOException e) {
             throw new PersistenceException(PersistenceException.ExceptionType.ConnectionNotAvailable,"Fehler beim Speichern der Daten: " + e.getMessage());
+        }
+        try {
+            oos.close();
+        } catch (IOException e) {
+            throw new PersistenceException(PersistenceException.ExceptionType.ConnectionNotAvailable,"Fehler beim Schließen: " + e.getMessage());
         }
     }
 
@@ -37,25 +43,32 @@ public class PersistenceStrategyStream<E> implements PersistenceStrategy<E> {
      * Take also a look at the import statements above ;-!
      */
     public List<E> load() throws PersistenceException  {
+        ObjectInputStream ois = null;
         try {
             FileInputStream fis = new FileInputStream(location);
-            ObjectInputStream ois = new ObjectInputStream(fis);
+            ois = new ObjectInputStream(fis);
 
             Object obj = ois.readObject();
+
             if(obj instanceof List<?>) {
                 return (List<E>) obj;
             } else {
-                throw new PersistenceException(PersistenceException.ExceptionType.ImplementationNotAvailable,"Geladene Datei enthält keine Liste");
+                throw new PersistenceException(PersistenceException.ExceptionType.ImplementationNotAvailable,"Geladene Datei enthält keine Liste ");
             }
 
-        } catch (FileNotFoundException e) { // Falls die Datei nicht existiert
-            throw new PersistenceException(PersistenceException.ExceptionType.ConnectionNotAvailable,
-                    "Datei nicht gefunden: " + e.getMessage());
+        } catch (ClassNotFoundException e) {
+            throw new PersistenceException(PersistenceException.ExceptionType.ImplementationNotAvailable,
+                    "Klasse nicht gefunden: " + e.getMessage());
 
-        } catch (IOException | ClassNotFoundException e) {
-            // Andere I/O-Fehler oder Fehler beim Lesen des Objekts
+        } catch (IOException e) {
             throw new PersistenceException(PersistenceException.ExceptionType.ConnectionNotAvailable,
                     "Fehler beim Laden der Daten: " + e.getMessage());
+        } finally {
+            try {
+                ois.close();
+            } catch (IOException e) {
+                throw new PersistenceException(PersistenceException.ExceptionType.ConnectionNotAvailable, "Schließen nicht möglich " + e.getMessage());
+            }
         }
     }
 }
