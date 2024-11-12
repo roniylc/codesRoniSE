@@ -2,7 +2,6 @@ package org.hbrs.se1.ws24.exercises.uebung4.prototype;
 
 import java.io.*;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
@@ -121,7 +120,7 @@ public class Container {
 		// ausgeben. Allerdings weiss der Student hier nicht weiter!
 
 		// [Sortierung ausgelassen]
-		// Todo: Implementierung Sortierung (F4)
+		// Todo: Implementierung Sortierung (F4) --> SDK
 
 		// Klassische Ausgabe ueber eine For-Each-Schleife
 		for (UserStory story : liste) {

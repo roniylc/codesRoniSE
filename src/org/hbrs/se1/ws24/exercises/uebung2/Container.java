@@ -20,6 +20,9 @@ public class Container {
     }
 
     // erzeugt einzige Instanz von Container
+    /* Vorteil: Erstellung des Objektes bei Bedarf
+    *  Nachteil: Thread-Safe? Nein! (Lösung: Synchronized, aber erheblich schlecht bei der Performance)
+    * */
     public static Container getInstance(){
         if(instance == null){
             instance = new Container();
