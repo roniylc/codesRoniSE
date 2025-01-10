@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Fertige Übung 9">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Fertige Übung 9" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +22,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
   "lastFilter": {
@@ -229,7 +228,7 @@
       <workItem from="1734723490210" duration="928000" />
       <workItem from="1735921533381" duration="710000" />
       <workItem from="1736517762409" duration="7577000" />
-      <workItem from="1736530237210" duration="640000" />
+      <workItem from="1736530237210" duration="981000" />
     </task>
     <task id="LOCAL-00001" summary="Klasse erstellt ohne Methode">
       <option name="closed" value="true" />
@@ -367,7 +366,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736530293808</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Fertige Übung 9">
+      <option name="closed" value="true" />
+      <created>1736531090607</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1736531090607</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Fertige Übung 9">
+      <option name="closed" value="true" />
+      <created>1736531201597</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1736531201597</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
