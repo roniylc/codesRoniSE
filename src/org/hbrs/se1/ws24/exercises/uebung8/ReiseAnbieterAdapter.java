@@ -1,6 +1,6 @@
-package org.hbrs.se1.ws24.exercises.uebung9;
+package org.hbrs.se1.ws24.exercises.uebung8;
 
-public class ReiseAnbieterAdapter implements ExternalHotelSucheInterface{
+public class ReiseAnbieterAdapter implements ExternalHotelSucheInterface {
 
     private ReiseAnbieter system;
 

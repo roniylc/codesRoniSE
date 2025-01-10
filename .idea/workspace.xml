@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Fertige Lösung zur Aufgabe 2 aus Übung 4">
-      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung9/ExternalHotelSucheInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung9/QueryObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung9/QueryResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung9/ReiseAnbieter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung9/ReiseAnbieterAdapter.java" afterDir="false" />
+    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Fertige Lösung Übung 9">
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung9/AbstractCoreDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung9/AbstractDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung9/ComplexDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung9/Document.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung9/GraficDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung9/TestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung9/TextDocument.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung9/ExternalHotelSucheInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung8/ExternalHotelSucheInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung9/QueryObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung8/QueryObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung9/QueryResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung8/QueryResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung9/ReiseAnbieter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung8/ReiseAnbieter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung9/ReiseAnbieterAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung8/ReiseAnbieterAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung9/SuchAuftrag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung8/SuchAuftrag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung9/SuchErgebnis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung8/SuchErgebnis.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +30,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Exception" />
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -42,51 +53,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.hbrs.se1.ws24.exercises.uebung4.eigeneLoesung.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;JUnit.ContainerTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ContainerTest.PersistenceStrategieMongoDBTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ContainerTest.RoundTripTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ContainerTest.StrategieTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ContainerTest.StrategyTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ContainerTest.TestLocation.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ContainerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ContainerTest.test1.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ContainerTest.test2.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ContainerTest.test3.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ContainerTest.test4.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ContainerTest.test5.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ContainerTest.test6.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ContainerTest.test7.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ContainerTest.test8.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ContainerTestUserStorys.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.GermanTranslatorTest.translateNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/ronib/OneDrive/Dokumente/3. Semester/Software Engineering 1/codesSEws24/test&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ronib/OneDrive/Dokumente/3. Semester/Software Engineering 1/codesSEws24/test/org/hbrs/se1/ws24&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.grazie&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Client.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.TestClient.executor": "Run",
+    "Application.org.hbrs.se1.ws24.exercises.uebung4.eigeneLoesung.Client.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.ContainerTest (1).executor": "Run",
+    "JUnit.ContainerTest.PersistenceStrategieMongoDBTest.executor": "Run",
+    "JUnit.ContainerTest.RoundTripTest.executor": "Run",
+    "JUnit.ContainerTest.StrategieTest.executor": "Run",
+    "JUnit.ContainerTest.StrategyTest.executor": "Run",
+    "JUnit.ContainerTest.TestLocation.executor": "Run",
+    "JUnit.ContainerTest.executor": "Run",
+    "JUnit.ContainerTest.test1.executor": "Run",
+    "JUnit.ContainerTest.test2.executor": "Run",
+    "JUnit.ContainerTest.test3.executor": "Run",
+    "JUnit.ContainerTest.test4.executor": "Run",
+    "JUnit.ContainerTest.test5.executor": "Run",
+    "JUnit.ContainerTest.test6.executor": "Run",
+    "JUnit.ContainerTest.test7.executor": "Run",
+    "JUnit.ContainerTest.test8.executor": "Run",
+    "JUnit.ContainerTestUserStorys.executor": "Run",
+    "JUnit.GermanTranslatorTest.translateNumber.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/ronib/OneDrive/Dokumente/3. Semester/Software Engineering 1/codesSEws24/test",
+    "last_opened_file_path": "C:/Users/ronib/OneDrive/Dokumente/3. Semester/Software Engineering 1/codesSEws24/test/org/hbrs/se1/ws24",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.hbrs.se1.ws24.exercises.uebung9" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ronib\OneDrive\Dokumente\3. Semester\Software Engineering 1\codesSEws24\test\org\hbrs\se1\ws24" />
       <recent name="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises" />
@@ -100,13 +115,26 @@
       <recent name="org.hbrs.se1.ws24.exercises.uebung3.persistence" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.hbrs.se1.ws24.exercises.uebung4.eigeneLoesung.Client">
+  <component name="RunManager" selected="Application.TestClient">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.exercises.uebung3.persistence.Client" />
       <module name="codesSE2024" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.hbrs.se1.ws24.exercises.uebung3.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.exercises.uebung9.TestClient" />
+      <module name="codesSE2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hbrs.se1.ws24.exercises.uebung9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,21 +151,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContainerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codesSE2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.hbrs.se1.ws24.exercises.uebung3.persistence.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.exercises.uebung3.persistence.test" />
-      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.exercises.uebung3.persistence.test.ContainerTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -175,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestClient" />
         <item itemvalue="Application.org.hbrs.se1.ws24.exercises.uebung4.eigeneLoesung.Client" />
         <item itemvalue="JUnit.ContainerTestUserStorys" />
         <item itemvalue="Application.Client" />
         <item itemvalue="JUnit.ContainerTest.StrategyTest" />
-        <item itemvalue="JUnit.ContainerTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +228,9 @@
       <workItem from="1731342976771" duration="13689000" />
       <workItem from="1731447188394" duration="491000" />
       <workItem from="1731502272850" duration="1696000" />
-      <workItem from="1734723490210" duration="316000" />
+      <workItem from="1734723490210" duration="928000" />
+      <workItem from="1735921533381" duration="710000" />
+      <workItem from="1736517762409" duration="7577000" />
     </task>
     <task id="LOCAL-00001" summary="Klasse erstellt ohne Methode">
       <option name="closed" value="true" />
@@ -313,7 +328,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731447404069</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Fertige Lösung Übung 9">
+      <option name="closed" value="true" />
+      <created>1734723935172</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1734723935172</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,7 +360,8 @@
     <MESSAGE value="Vorläufige Version" />
     <MESSAGE value="Übung 3 fertige Lösungsversion" />
     <MESSAGE value="Fertige Lösung zur Aufgabe 2 aus Übung 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fertige Lösung zur Aufgabe 2 aus Übung 4" />
+    <MESSAGE value="Fertige Lösung Übung 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fertige Lösung Übung 9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -346,6 +370,11 @@
           <url>file://$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung4/eigeneLoesung/ContainerException.java</url>
           <line>5</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/persistence/PersistenceStrategyStream.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
