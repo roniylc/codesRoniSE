@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Fertige Übung 9" />
+    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Fertige Übung 9">
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung10/BoundingBoxFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung10/MyPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung10/MyPrettyRectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/org/hbrs/se1/ws24/tests/uebung10/MyPrettyRectangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws24/tests/uebung10/MyPrettyRectangleTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,7 +118,7 @@
       <recent name="org.hbrs.se1.ws24.exercises.uebung3.persistence" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestClient">
+  <component name="RunManager" selected="JUnit.MyPrettyRectangleTest">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.exercises.uebung3.persistence.Client" />
       <module name="codesSE2024" />
@@ -167,29 +173,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContainerTest.StrategyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyPrettyRectangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codesSE2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hbrs.se1.ws24.exercises.uebung3.persistence.test.*" />
+          <option name="PATTERN" value="org.hbrs.se1.ws24.tests.uebung10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.exercises.uebung3.persistence.test" />
-      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.exercises.uebung3.persistence.test.ContainerTest" />
-      <option name="METHOD_NAME" value="StrategyTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.tests.uebung10" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.tests.uebung10.MyPrettyRectangleTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyPrettyRectangleTest" />
         <item itemvalue="Application.TestClient" />
         <item itemvalue="Application.org.hbrs.se1.ws24.exercises.uebung4.eigeneLoesung.Client" />
         <item itemvalue="JUnit.ContainerTestUserStorys" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="JUnit.ContainerTest.StrategyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -229,6 +234,7 @@
       <workItem from="1735921533381" duration="710000" />
       <workItem from="1736517762409" duration="7577000" />
       <workItem from="1736530237210" duration="981000" />
+      <workItem from="1736926268235" duration="304000" />
     </task>
     <task id="LOCAL-00001" summary="Klasse erstellt ohne Methode">
       <option name="closed" value="true" />
@@ -390,7 +396,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736531812972</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Fertige Übung 9">
+      <option name="closed" value="true" />
+      <created>1736531952025</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1736531952025</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

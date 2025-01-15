@@ -1,5 +1,7 @@
 package org.hbrs.se1.ws24.tests.uebung10;
 
+import org.hbrs.se1.ws24.exercises.uebung10.MyPoint;
+import org.hbrs.se1.ws24.exercises.uebung10.MyPrettyRectangle;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
